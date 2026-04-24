@@ -1,0 +1,154 @@
+/* ===== TEXT VISIBILITY FIX ===== */
+/* Text Color Adjustments for better visibility against backgrounds */
+
+/* Default text color for body */
+body {
+    color: #e1e8ff !important;
+}
+
+/* Headings - White for better contrast */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff !important;
+}
+
+/* Paragraphs */
+p {
+    color: #e1e8ff !important;
+}
+
+/* Label text */
+label {
+    color: #b8c5db !important;
+}
+
+/* Input fields - ensure text is visible inside */
+input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]) {
+    color: #ffffff !important;
+    background-color: rgba(26, 31, 58, 0.8) !important;
+    border: 1px solid rgba(0, 240, 255, 0.3) !important;
+}
+
+textarea {
+    color: #ffffff !important;
+    background-color: rgba(26, 31, 58, 0.8) !important;
+    border: 1px solid rgba(0, 240, 255, 0.3) !important;
+}
+
+select {
+    color: #ffffff !important;
+    background-color: rgba(26, 31, 58, 0.8) !important;
+    border: 1px solid rgba(0, 240, 255, 0.3) !important;
+}
+
+option {
+    background-color: #1a1f3a !important;
+    color: #ffffff !important;
+}
+
+/* Table Text */
+table {
+    color: #e1e8ff !important;
+}
+
+th {
+    color: #f3f6f7 !important;
+}
+
+td {
+    color: #e1e8ff !important;
+}
+
+/* Lists */
+ul,
+ol,
+li {
+    color: #e1e8ff !important;
+}
+
+/* Links */
+a {
+    color: #f5fafa !important;
+}
+
+a:hover {
+    color: #fafdfd !important;
+}
+
+/* Buttons */
+.btn {
+    text-shadow: none !important;
+}
+
+/* Alerts */
+.alert {
+    color: #1a1f3a !important;
+    /* Dark text on light alert backgrounds if they are light */
+}
+
+/* Specific overrides for alert text if backgrounds are dark/transparent */
+.alert-success {
+    color: #00ff88 !important;
+}
+
+.alert-danger {
+    color: #ff0055 !important;
+}
+
+.alert-warning {
+    color: #ffaa00 !important;
+}
+
+.alert-info {
+    color: #00aaff !important;
+}
+
+/* Dashboard Stats */
+.stat-value {
+    color: #ffffff !important;
+}
+
+.stat-label {
+    color: #b8c5db !important;
+}
+
+/* Candidate Cards */
+.candidate-name {
+    color: #ffffff !important;
+}
+
+.candidate-info {
+    color: #b8c5db !important;
+}
+
+.candidate-description {
+    color: #e1e8ff !important;
+}
+
+/* Vote Count Box */
+.vote-count-label {
+    color: #b8c5db !important;
+}
+
+.vote-count-value {
+    color: #00f0ff !important;
+}
+
+/* Admin Table Fix - No hover highlight */
+tr:hover {
+    background-color: transparent !important;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #1a1f3a !important;
+    color: #e1e8ff !important;
+}
+
+.modal-title {
+    color: #ffffff !important;
+}

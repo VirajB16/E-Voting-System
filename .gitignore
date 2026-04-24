@@ -1,0 +1,10 @@
+Project_Backup*
+*.log
+*.tmp
+.git
+node_modules
+.idea
+.vscode
+Voting_System_FINAL_BACKUP.zip
+Voting System Backups/
+temp_backup/
